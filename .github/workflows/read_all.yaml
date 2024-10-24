@@ -1,6 +1,5 @@
-# This is a basic workflow that is manually triggered
-
-name: Manual workflow
+# This is a basic workflow with permissions set to read-all for all jobs
+name: Read All
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.

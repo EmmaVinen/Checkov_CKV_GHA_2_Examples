@@ -1,6 +1,5 @@
-# This is a basic workflow that is manually triggered
-
-name: Manual workflow
+# This is a basic workflow with permissions set to read-all at the workflow level and write-all inside the job
+name: Inside Job
 
 # Controls when the action will run. Workflow runs when manually triggered using the UI
 # or API.
@@ -12,7 +11,7 @@ on:
     branches: [ "main", "master" ]
   pull_request:
     branches: [ "main", "master" ]
-    
+
   workflow_dispatch:
     # Inputs the workflow accepts.
     inputs:
